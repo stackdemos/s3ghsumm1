@@ -1,0 +1,62 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://s3.amazonaws.com/'
+  - name: application.bucket.name
+    value: files.ml7.demo5.superhub.io
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: Kubeflow pipeline
+  - name: application.humanName
+    value: s3ghsumm1
+  - name: application.name
+    value: s3ghsumm1
+  - name: application.training.docker.auth.basic.username
+    value: admin
+  - name: application.training.docker.auth.host
+    value: ml7-harbor.svc.ml7.demo5.superhub.io
+  - name: application.training.docker.registry.image
+    value: ml7-harbor.svc.ml7.demo5.superhub.io/library/s3ghsumm1
+  - name: application.training.docker.registry.kind
+    value: harbor
+  - name: application.training.docker.registry.url
+    value: ml7-harbor.svc.ml7.demo5.superhub.io/library
+  - name: author.email
+    value: demo05@superhub.io
+  - name: author.id
+    value: 00u3pt26n1KEQrpF22p7
+  - name: author.name
+    value: Demo05 User
+  - name: author.organization
+    value: DEMO05
+  - name: component.dex.okta.appId
+    value: 0oa5cto0uyN3vhkh12p7
+  - name: component.dex.okta.clientId
+    value: 0oa5cto0uyN3vhkh12p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: s3ghsumm1
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.humanName
+  - name: application.name
+  - name: application.training.docker.auth.basic.username
+  - name: application.training.docker.auth.host
+  - name: application.training.docker.registry.image
+  - name: application.training.docker.registry.kind
+  - name: application.training.docker.registry.url
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
